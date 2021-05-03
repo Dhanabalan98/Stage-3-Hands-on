@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap Sample</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-icons {
+            vertical-align: middle;
+        }
+
+        #heart:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color:black;">
+            <nav class=" navbar-expand-md navbar-dark bg-dark">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="color: white; font-size: 25px;">hTrack</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> <span class="glyphicon glyphicon-home"></span>  Home </a></li>
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> Products </a></li>
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> Goals </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <h1>Products</h1>
+
+        <div class="card-columns">
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1584483720412-ce931f4aefa8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Hand Sanitizer<span class="label label-default" style="background-color: rgb(48, 156, 48);">4.3 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 75.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.150.00</span> 50% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">
+                        Hand Sanitizer keeps you safe from all other virus. It kills 99.9% germs </p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1583334758673-713113e70d1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Moisturizer<span class="label label-default" style="background-color: rgb(48, 156, 48);">4.2 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 200.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.250.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">Moisturizing Cream is a lightening and nourishing cream blended with pure honey, wheatgerm and seaweed. It sinks into skin to replace natural oils and replenish lost moisture for a noticeably fresher, and brighter complexion.</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1567581935884-3349723552ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">IPhones<span class="label label-default" style="background-color: rgb(48, 156, 48);">4.4 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 150000.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.170000.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">iPhone, the world's most powerful personal device. Makes your day to day activities safe and secure. You are fully protected from scammers</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1564510182791-29645da7fac4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZhbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Electric Fan<span class="label label-default" style="background-color: rgb(48, 156, 48);">4.4 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 600.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.1000.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">
+                        Available in Various specifications. Makes your summer cool and joyfull.</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left:150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1598367899360-30e1ad80949b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=325&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Kettle<span class="label label-default" style="background-color: rgb(48, 156, 48);">4.4 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 500.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.800.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">Kettles for perfectly keeping our drinks in a warm condition.Made with high quality materials to withstand various scenarios.</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1598215439218-f79b46925d3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="image" height="240">
+                <div class="card-body">
+                    <h4 class="card-title">Water Melon Juice<span class="label label-default" style="background-color: rgb(48, 156, 48);">4.4 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 150.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.350.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">
+                        Good for health made with 100% natural ingredients </p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left:150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <
+</body>
+</html>
